@@ -24,7 +24,7 @@ namespace Lab02.Controllers
         }
 
         // GET: Products/Location?zip=44124
-        // Note: a string parameter will allow a 9 digit zip
+        // Note: a string parameter will allow a 9 digit zip with a hyphen
         public string Location(string zip)
         {
             return HttpUtility.HtmlEncode("Location displayed for zip=" + zip);
